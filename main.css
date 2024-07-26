@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+}
+.main-frame {
+  display: flex;
+  flex-direction: column;
+}
+.header-frame {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
+}
+.hero-frame,
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #1f2937;
+}
+.left-hero-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 550px;
+}
+.right-frame {
+  display: flex;
+  gap: 30px;
+}
+.logo-image {
+  margin: 10px;
+  height: 30px;
+  width: 50px;
+}
+.header-link,
+.secondary-text,
+.footer {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.title {
+  font-weight: bolder;
+  font-size: 48px;
+  color: #f9faf8;
+}
+.hero-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  width: 150px;
+  max-width: 100%;
+}
+.info-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.info-top-frame {
+  font-size: 38px;
+  font-weight: 800;
+  color: #1f2937;
+}
+.info-bottom-frame {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.info-image {
+  height: 250px;
+  width: 250px;
+}
+.info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-content > p {
+  font-size: 21px;
+  font-weight: 400;
+  color: #363a3f;
+}
+.quote-frame {
+  font-size: 38px;
+  color: #1f2937;
+  background-color: #e5e7eb;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: center;
+}
+.quote-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+  width: 600px;
+}
+.quote-text > p {
+  align-self: flex-end;
+}
+.footer {
+  padding: 30px 0px;
+}
+.action-frame {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.action-container {
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  padding: 40px 45px;
+}
+.action-container p {
+  color: #e5e7eb;
+  margin: 0px;
+}
+.action-container,
+.action-container > button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-color: #f9faf8;
+  border-width: 2px;
+  border-radius: 8px;
+}
